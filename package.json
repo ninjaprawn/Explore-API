@@ -1,0 +1,23 @@
+{
+  "name": "explore-api",
+  "version": "1.0.0",
+  "description": "A Node.js API for GitHub's Explore page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ninjaprawn/Explore-API.git"
+  },
+  "author": "George Dan (ninjaprawn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ninjaprawn/Explore-API/issues"
+  },
+  "homepage": "https://github.com/ninjaprawn/Explore-API#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.74.0"
+  }
+}
