@@ -13,6 +13,16 @@ var exp = require('./index') || require('explore-api');
 // 	console.log(langs);
 // });
 
-exp.trendingRepos(function(repos) {
-	console.log(repos);
-}, "", "monthly");
+// exp.trendingRepos(function(repos) {
+// 	console.log(repos);
+// }, "", "monthly");
+
+exp.allShowcases(function(showcases) {
+	console.log(showcases);
+	console.log(showcases.length);
+}, 3);
+
+exp.allShowcases(function(showcases) {
+	console.log(showcases);
+	console.log(showcases.length);
+}, 3, 1);
