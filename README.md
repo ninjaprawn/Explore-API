@@ -1,3 +1,5 @@
+Note from author - This package is obsolete due to GitHub modifying their explore page.
+
 # Explore-API
 A Node.js API for GitHub's Explore page. Be able to fetch showcases and trending repositories in simple functions.
 
